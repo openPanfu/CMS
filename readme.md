@@ -39,9 +39,9 @@ Alright, from here on we assume you have all of the requirements as mentioned ab
 10. Run 'php artisan serve' in your terminal and now you should have a functioning CMS. 
 
 
-### Advanced
+## Advanced
 
-## But I don't want to run my InformationServer from the CMS
+### But I don't want to run my InformationServer from the CMS
 This will be supported next commit.
-## But I am using an external host (CDN) for the flashclient files
+### But I am using an external host (CDN) for the flashclient files
 This will be supported next commit.
