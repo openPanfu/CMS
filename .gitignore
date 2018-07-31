@@ -1,4 +1,6 @@
 .env
+public/FlashClient
+public/InformationServer
 # Created by https://www.gitignore.io/api/laravel,windows,phpstorm
 
 ### Laravel ###
