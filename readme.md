@@ -28,7 +28,7 @@ You'll also need PHP (cli) and Composer installed in your terminal, this PHP ver
 Alright, from here on we assume you have all of the requirements as mentioned above.
 
 1. Clone this project.
-2. Go to your project folder, open the .env file.
+2. Go to your project folder, copy .env.example to .env and open it.
 3. Change 'APP_NAME', 'DB_HOST', 'DB_PORT', 'DB_USERNAME' 'DB_PASSWORD' according to your MySQL configuration.
 4. Open your terminal, make sure your current directory is your cloned project's directory.
 5. Run 'composer install' to let laravel get all of it's components
