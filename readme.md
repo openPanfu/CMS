@@ -1,19 +1,19 @@
 # OpenPanfu CMS
 
-### About
+## About
 This is the site that you'll run in order to play the game, it is based on the Laravel framework which uses Bootstrap.
 
 We did not try to make a replicate the style of panfu itself yet, we think you're capable of that yourself and this just works fine.
 
 Both Laravel and Bootstrap use the MIT License which you can read yourself.
 
-### Installation
+## Required things
 
 For installation you'll need a MySQL server.
 You'll also need PHP (cli) and Composer installed in your terminal, this PHP version has to be >7.1.3
 
 
-### Required enabled PHP extensions
+## Required enabled PHP extensions
 
 * PDO
 * OpenSSL
@@ -23,7 +23,7 @@ You'll also need PHP (cli) and Composer installed in your terminal, this PHP ver
 * Ctype
 * JSON
 
-#### Setup
+## Setup
 
 Alright, from here on we assume you have all of the requirements as mentioned above.
 
@@ -41,4 +41,7 @@ Alright, from here on we assume you have all of the requirements as mentioned ab
 
 ### Advanced
 
-If you want to run your InformationServer from the CMS you should place your InformationServer inside the 'InformationServer' folder in public.
+## But I don't want to run my InformationServer from the CMS
+This will be supported next commit.
+## But I am using an external host (CDN) for the flashclient files
+This will be supported next commit.
