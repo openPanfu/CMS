@@ -34,8 +34,8 @@ Alright, from here on we assume you have all of the requirements as mentioned ab
 5. Run 'composer install' to let laravel get all of it's components
 6. Run 'php artisan key:generate' in order to set the key that is used for all encrypted data like your sessions.
 7. Run 'php artisan migrate' to let laravel create the database for you.
-8. Go inside the public folder, place your InformationServer inside there like the empty folder that's already there right now.
-9. Copy your flashclient copy to the flashclient folder in public.
+8. Go inside the public folder, place your InformationServer inside the public folder.
+9. Copy your flashclient to the public folder, so it is OpenPanfuCMS/public/panfu.swf.
 10. Run 'php artisan serve' in your terminal and now you should have a functioning CMS. 
 
 
