@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                   Good day <b>{{ Auth::user()->name }}</b>. Welcome to {{ config('app.name', 'Laravel') }} enjoy your stay.
                 </div>
             </div>
         </div>
