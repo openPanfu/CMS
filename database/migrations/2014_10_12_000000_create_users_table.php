@@ -29,6 +29,7 @@ class CreateUsersTable extends Migration
             $table->date('birthday')->nullable();
             $table->rememberToken();
             $table->timestamps();
+            $table->date('last_login')->nullable();
         });
     }
 

@@ -59,6 +59,9 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <h6 class="dropdown-header">Last Login: {{Auth::user()->last_login }} </h6>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="{{ route('settings') }}">{{ __('Settings') }}</a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
