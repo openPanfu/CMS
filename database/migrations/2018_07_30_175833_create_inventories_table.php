@@ -13,7 +13,7 @@ class CreateInventoriesTable extends Migration
      */
     public function up()
     {
-        Schema::create('Inventories', function (Blueprint $table) {
+        Schema::create('inventories', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('user_id');
             $table->boolean('active');
